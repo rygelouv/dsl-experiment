@@ -1,24 +1,3 @@
-# Introduction
-
- 
-
-## Add it to your project
-
-In your project root build.gradle with:
-```gradle
-allprojects {
-    repositories {
-        maven { url "https://jitpack.io" }
-    }
-}
-```
-and in the app or module build.gradle:
-
-```gradle
-dependencies {
-    implementation 'com.github.rygelouv:lcerecyclerview:0.0.6'
-}
-```
 
 ## Credits
 

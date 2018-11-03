@@ -1,0 +1,45 @@
+
+
+
+
+
+1 ---> Set as your DLS should look like
+2 ---> Create function with lambda as parameter
+3 ---> Use that function with lambda outside of parentheses
+4 ---> Get rid of the "it" by changing the lambda block into a lambda with receiver
+4' ---> We can one-line the expression using apply
+5 ---> In order to use val and have proper data class, setup Builder Pattern for those data class
+6 ---> Move Object creation functions in model class Builder
+7 ---> List of Object ? Say no more... Create a collection object in the builder change the function to be an "add" of item to the collection
+8 ---> Wanna change the collection style ? Create helper class. Subclass of list (of the object we want to create)
+9 ---> Protect the DSL safety by scoping it with @DslMarker based annotation
+
+
+
+
+
+
+
+
+
+
+meetup {
+    group = "DAUG"
+    title = "Cupcake DAUG"
+    date = "34/34/452"
+    start at 34
+    talks {
+        talk {
+            title = "DSL in a Kotlin world"
+            speaker = "Rygel Nagam Sangam Louv"
+            hour = "10PM"
+        }
+        talk {
+            title = "DSL in a Kotlin world"
+            speaker = "Rygel Nagam Sangam Louv"
+            hour = "10PM"
+        }
+    }
+}
+
+meetup starts
