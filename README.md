@@ -1,7 +1,7 @@
 
 ## Credits
 
-Author: Rygel Louv [https://medium.com/@rygel](https://medium.com/@rygel)
+Author: Rygel Louv 
  
 
 License
